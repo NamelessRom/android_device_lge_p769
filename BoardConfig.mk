@@ -23,6 +23,9 @@
 TARGET_KERNEL_CONFIG := custom_p769_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/omap4-common
 
+# LCD Backlight Device
+LCD_BACKLIGHT_LM3530 := true
+
 #Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/p769/bluetooth
 
